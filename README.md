@@ -27,10 +27,10 @@ This project was put together using create-react-app (CRA). You will not need to
 - [X] Clone your OWN version of the repository in your terminal
 - [X] CD into the project base directory `cd lambda-calculator`
 - [X] Download project dependencies by running one of these two commands `yarn` or `npm install`
-- [ ] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
       Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [X] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
@@ -72,12 +72,12 @@ const [numberState, setNumberState] = useState(numbers);
 
 **Step 3**
 
-- Map over the data and dynamically render components for each piece of data in the arrays.
-- You will need to import the component that you'll render in the map function.
+[X] Map over the data and dynamically render components for each piece of data in the arrays.
+[X] You will need to import the component that you'll render in the map function.
 
 **STEP 4**
 
-- Import the wrapper button components into `App.js`
+[X] Import the wrapper button components into `App.js`
 - Import the display components into `App.js` as well
 - Compose all the components inside the `App` component to get your calculator rendering on the DOM
 - In each component, start designing things to match the design file
