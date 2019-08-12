@@ -1,7 +1,10 @@
 import React from "react";
 
-const Display = () => {
-  return <div className="display">{/* Display any props data here */}</div>;
+const Display = (props) => {
+  return <div className="display">
+    <div className="calculatorValue">{props.startingValue}
+    </div>
+  </div>;
 };
 
 export {Display};
