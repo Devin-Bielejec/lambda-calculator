@@ -9,10 +9,6 @@
     background: #A81D36;
 }
 
-.logo-container{
-    align-self: start;
-}
-
 .display{
     margin: 0 auto;
     width: 100%;
@@ -33,25 +29,39 @@
 
 .App{
     display: grid;
+    background: yellow;
     width: 100%;
     height: 50%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.specials{
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 1;
+    background: blue;
+}
+
+.numbers{
+    grid-column: 1 / span 3;
+    grid-row: 2 / span 4;
+}
+
+.operators{
+    grid-column: 4 / span 1;
+    grid-row: 1 / span 5;
 }
 
 button{
     border-radius: 50px;
-    width: 80px;
-    height: 80px;
-    margin: 5px 5px;
+    width: 75px;
+    height: 75px;
+    margin: 0px;
+    padding: 0px;
     color: white;
     border: 1px outset black;
     box-shadow: 0px 3px black;
     font-size: 3rem;
-}
-
-.number[value="0"]{
-    width: 62%;
 }
 
 .number{
